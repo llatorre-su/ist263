@@ -14,7 +14,7 @@ footer span{float: right;}
 .row2 {display: flex; flex-wrap: wrap;}
 .row2col1 {padding: 20px;}
 .row2col2 {padding: 20px;}
-.article1, .article2, .article3, .article4 {margin: 10px; padding: 15px; border-radius: 1em; background-color: #b57676;}
+.article1, .article2, .article3, .article4 {margin: 10px; padding: 15px; border-radius: 1em; background-color: #e9b1cb;}
 .image {float: right; margin: 10px; max-width: 100%;}
 @media only screen and (max-width: 600px) {
     nav a{max-width: 100%; display: block; margin-top: 10px;}
