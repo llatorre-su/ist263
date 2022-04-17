@@ -1,11 +1,11 @@
 body{background-color: #ff8861;
-    color: #ffffff;}
+    color: #000000;}
 a:link{color: #4f4f4f;}
 h1{color: #000000;}
 nav{background-color: #b57676;
 padding: 10px;
 margin-bottom: 30px;}
-nav a{color: #4f4f4f;}
+nav a{color: #000000;}
 nav a:hover{background-color: #ff8861;}
 footer span{float: right;}
 .row1 {display: flex; flex-wrap: wrap;}
@@ -22,9 +22,9 @@ footer span{float: right;}
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-h1{color:#ffffff}
+h1{color:#000000;}
 h1{font-size: 1.8em;}
-h2{font-size: 1.3em;}
+h2{font-size: 1.3em; color: #000000;}
 .evenrow{background-color:gainsboro;}
 #skip:focus {left: 10px;}
 #skip { 
