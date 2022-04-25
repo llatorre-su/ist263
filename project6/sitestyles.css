@@ -15,9 +15,9 @@ nav{
 }
 nav a{color: #e81515;}
 .boxes{display: flex; justify-content: space-evenly;}
-.leftbox{flex: 1; border: 3px solid #e81515; background-color: #ffffff; border-radius: 1em; padding: 15px; padding-bottom: 40px; margin-left: 310px; float: left;}
+.leftbox{flex: 1; border: 3px solid #e81515; background-color: #ffffff; border-radius: 1em; padding: 15px; padding-bottom: 40px; margin-left: 310px;}
 .bottomlogo{flex: 1; justify-content: center; margin: auto; margin-left: 120px; margin-right: 80px;}
-.rightbox{flex: 1; border: 3px solid #e81515; background-color: #ffffff; border-radius: 1em; padding: 15px; padding-bottom: 40px; margin-right: 200px; float: right;}
+.rightbox{flex: 1; border: 3px solid #e81515; background-color: #ffffff; border-radius: 1em; padding: 15px; padding-bottom: 40px; margin-right: 200px;}
 footer{display: flex;}
 .icon{height: 50px;}
 .estimatebutton{
