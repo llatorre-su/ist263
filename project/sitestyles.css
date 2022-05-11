@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+:root{
+    --primarycolor:#ffffff;
+    --secondarycolor:#e81515;
+    --accentcolor:#a8dadc;
+}
+
 body{
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Nunito', sans-serif ;
-    background-color: #a8dadc;
+    background-color: var(--accentcolor);
 }
 h1{
     display: flex;
@@ -12,7 +18,7 @@ h1{
     margin-bottom: 20px;
 }
 nav {
-    background-color: #ffffff;
+    background-color: var(--primarycolor);
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
@@ -20,16 +26,16 @@ nav {
 *{
     margin: 0;
 }
-nav a{color: #e81515;}
+nav a{color: var(--secondarycolor);}
 .boxes{display: flex; justify-content: space-evenly;}
-.leftbox{flex: 1; border: 3px solid #e81515; background-color: #ffffff; border-radius: .5em; padding: 15px; padding-bottom: 40px; margin-left: 310px;}
+.leftbox{flex: 1; border: 3px solid var(--secondarycolor); background-color: #ffffff; border-radius: .5em; padding: 15px; padding-bottom: 40px; margin-left: 310px;}
 .bottomlogo{flex: 1; justify-content: center; margin: auto; margin-left: 120px; margin-right: 80px;}
 .rightbox{
     display: flex;
     align-items: center;
     flex: 1; 
-    border: 3px solid #e81515; 
-    background-color: #ffffff; 
+    border: 3px solid var(--secondarycolor); 
+    background-color: var(--primarycolor); 
     border-radius: .5em; 
     padding: 15px; 
     padding-bottom: 40px; 
@@ -44,7 +50,7 @@ footer{display: flex; margin-bottom: 40px;}
     margin-top: 35px;
 }
 .estimatebutton{
-    background-color:#ffffff;
+    background-color:var(--primarycolor);
     padding: 15px;
     color: #000000;
     border-radius: .5em;
@@ -54,18 +60,18 @@ footer{display: flex; margin-bottom: 40px;}
     justify-content: center;
     margin-left: 500px;
     margin-right: 500px;
-    border: 3px solid #e81515;
+    border: 3px solid var(--secondarycolor);
 }
 .biggrapple{display: flex; height: 500px; margin: auto;}
 .homestatement{
-    background-color: #e81515; 
+    background-color: var(--secondarycolor); 
     padding: 15px; 
     margin-top: 50px; 
     margin-bottom: 40px; 
     margin-left: 50px; 
     margin-right: 50px; 
     border-radius: .5em; 
-    color: #ffffff;
+    color: var(--primarycolor);
     text-align: center;
     font-size: 125%;
 }
@@ -84,7 +90,7 @@ footer{display: flex; margin-bottom: 40px;}
 .gallery{
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--primarycolor);
     padding: 30px;
 }
 .logcollection, .logwidth, .logload {height:100px;}
@@ -93,7 +99,7 @@ footer{display: flex; margin-bottom: 40px;}
     width: 100%;
     justify-content: space-around;
     margin-bottom: 80px;
-    background-color: #ffffff;
+    background-color: var(--primarycolor);
 }
 .logcollection, .logwidth, .logload {
     flex: 1;
@@ -114,7 +120,7 @@ footer{display: flex; margin-bottom: 40px;}
 
 h2{
     text-align: center;
-    background-color: #ffffff;
+    background-color: var(--primarycolor);
 }
 
 .form{
