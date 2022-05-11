@@ -116,6 +116,20 @@ h2{
     text-align: center;
     background-color: #ffffff;
 }
-.fields{
-    text-align: ;
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.step{
+    padding: 5px;
+}
+.nameclass{
+    padding: 5px;
+    margin-top: 15px;
+}
+.submitmessage{
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 50px;
 }

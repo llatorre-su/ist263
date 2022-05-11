@@ -13,19 +13,67 @@
     
     <nav><a href="sitehome.html"><strong>Home</strong></a> <span>|</span>
         <a href="about.html"><strong>About</strong></a> <span>|</span>
-        <a href="estimate.html"><strong>Estimate Generator</strong></a></nav>
+        <a href="estimategenerator.html"><strong>Estimate</strong></a></nav>
 
         <h1>Angry Beaver</h1>
 
         <h2>Request an Estimate</h2>
 
-    <form action="https://formspree.io/f/xdobgzqy" class="fields">
+    <div class="form">
+    <form action="https://formspree.io/f/xdobgzqy" method="POST">
+        <div class="nameclass">
         <label for="fullname">Full Name</label><br>
         <input type="text" id="fullname" name="fullname"><br>
-
+        </div>
+        <div class="step">
         <label for="companyname">Company Name (if applicable)</label><br>
         <input type="text" id="companyname" name="companyname"><br>
+        </div>
+        <div class="step">
+        <label for="number">Phone Number</label><br>
+        <input type="tel" id="number" name="number"><br>
+        </div>
+        <div class="step">
+        <label for="location">Location of Pickup</label><br>
+        <input type="location" id="location" name="location"><br>
+        </div>
+        <div class="step">
+        <label for="species">Species of Trees (if known)</label><br>
+        <input type="species" id="species" name="species"><br>
+        </div>
+        <div class="step">
+        <p>Preffered contact method?</p>
+        </div>
+        <div class="step">
+            <label for="method1">Phone Call</label>
+            <input type="checkbox" id="method1" name="method1"><br>
+        </div>
+        <div class="step">
+            <label for="method2">Text</label>
+            <input type="checkbox" id="method2" name="method2"><br>
+        </div>
+        <div class="step">
+            <label for="method3">Email</label>
+            <input type="checkbox" id="method3" name="method3"><br>
+        </div>
+        <div class="step">
+        <label for="time">Best time to contact you?</label><br>
+        </div>
+            <select id="time" name="time">
+                <option value="morning">morning</option>
+                <option value="afternoon">afternoon</option>
+                <option value="evening">evening</option>
+            </select><br>
+        <div class="step">
+            <input type="submit" value="Submit">
+        </div>
+        <div class="submitmessage">
+            <p>Upon submission, please expect a<br>
+                response within 3-5 business days.</p>
+        </div>
+
     </form>
+    </div>
 
         <footer>
             <div class="boxes">
